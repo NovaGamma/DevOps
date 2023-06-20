@@ -1,0 +1,9 @@
+Started by user [8mha:////4P1fH8o4GgbBXF+wjz9AmBUT3BVyblNdsyx9CYvWOEn6AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4B3jdH1LRlKN5f93eCbP/+lZERqXN2zuqdV6NeBct6pJAAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzNEgZN/eT83ILSktQifZBhuin5ydmpRbrFOYllqboGIFCSWJybWVpYBgBTelsz3gAAAA==[0mjava-docker-slave-00000tasmiuqv on docker (java-docker-slave) in workspace /home/jenkins/workspace/java-docker-slave-test-job
+false
+[java-docker-slave-test-job] $ /bin/sh -xe /tmp/jenkins3591051943767761385.sh
++ echo Hello World
+Hello World
+Sending notification to Discord.
+Finished: SUCCESS

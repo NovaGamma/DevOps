@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <assignedNode>java-docker-slave</assignedNode>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo &quot;Hello World&quot;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <nz.co.jammehcow.jenkinsdiscord.WebhookPublisher plugin="discord-notifier@241.v448b_ccd0c0d6">
+      <webhookURL>https://discord.com/api/webhooks/1115524408862330950/mrw69p4p_jYIcgTlE0bIfoUDK8KdG4jNB95qD4-erS6SseTfLMsYUnnAuZq2sY5P0CKt</webhookURL>
+      <branchName></branchName>
+      <statusTitle></statusTitle>
+      <thumbnailURL></thumbnailURL>
+      <notes></notes>
+      <customAvatarUrl></customAvatarUrl>
+      <customUsername></customUsername>
+      <sendOnStateChange>false</sendOnStateChange>
+      <sendOnlyFailed>false</sendOnlyFailed>
+      <enableUrlLinking>false</enableUrlLinking>
+      <enableArtifactList>true</enableArtifactList>
+      <enableFooterInfo>true</enableFooterInfo>
+      <showChangeset>true</showChangeset>
+      <sendLogFile>false</sendLogFile>
+      <sendStartNotification>false</sendStartNotification>
+    </nz.co.jammehcow.jenkinsdiscord.WebhookPublisher>
+  </publishers>
+  <buildWrappers/>
+</project>
